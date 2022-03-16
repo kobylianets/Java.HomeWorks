@@ -9,7 +9,7 @@ public class HomeWorkApp {
 
         System.out.println(checkNumber(7));
 
-        stringAndNumber("text", 3);
+        stringAndNumber("text", 4);
 
         System.out.println(leepYear(1200));
 
