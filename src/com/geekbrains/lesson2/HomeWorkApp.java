@@ -9,7 +9,7 @@ public class HomeWorkApp {
 
         System.out.println(checkNumber(7));
 
-        stringAndNumber();
+        stringAndNumber("text", 3);
 
         System.out.println(leepYear(1200));
 
@@ -42,15 +42,12 @@ public class HomeWorkApp {
         }
     }
 
-    private static void stringAndNumber() {
-        for (int j = 0; j < 5; j++) {
-            for (int i = 0; i < 5; i++) {
-                System.out.print("i");
+    private static void stringAndNumber(String string, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.println(string);
             }
-            System.out.println();
         }
 
-    }
 
     private static boolean leepYear(int y) {
         y = y + 4;
